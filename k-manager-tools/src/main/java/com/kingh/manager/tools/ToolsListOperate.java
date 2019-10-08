@@ -11,7 +11,7 @@ import org.slf4j.LoggerFactory;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-@Action(id = "ol", name = "工具列表")
+@Action(id = "manager.tools.list", name = "工具列表", desc = "根据指定的组件名称，展示出所有组件中包含的服务")
 public class ToolsListOperate implements Operate {
 
     private static final Logger logger = LoggerFactory.getLogger(ToolsListOperate.class);
