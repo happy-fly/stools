@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<server>
+	<actions>
+		<action name="operate" url="/operate" class="com.kingh.netty.server.handler.system.OperateHandle"></action>
+	</actions>
+</server>
